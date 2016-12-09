@@ -1,3 +1,8 @@
+casperjs:
+  build: docker/casperjs
+  volumes:
+      - .:/var/www/html
+
 web:
   image: apparena/php7-xdebug
   ports:
