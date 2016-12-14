@@ -1,4 +1,4 @@
-asper = require('casper').create();
+casper = require('casper').create();
 casper.start('http://casperjs.org/');
 
 casper.then(function() {
